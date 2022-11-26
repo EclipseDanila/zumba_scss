@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+  .header__black {
+    display: none;
+  }
+  .header__navigation {
+    justify-content: center;
+  }
+  .header__navigation .header__burger-menu {
+    position: absolute;
+    left: 25px;
+    display: block;
+  }
+  .header__navigation .header__nav {
+    display: none;
+  }
+  .footer_navigation .footer__col {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .footer_navigation .footer__col:first-child {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    background-image: url(../imgs/intro-2.avif);
+  }
+  .intro__subtitle {
+    display: none;
+  }
+  .intro__btns {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px 0 10px;
+  }
+  .intro__btns .intro_btn {
+    width: 100%;
+  }
+  .search {
+    padding: 22px 28px 24px;
+  }
+  .search__form {
+    flex-direction: column;
+  }
+  .search__form #search__pin {
+    left: 30px;
+    margin-top: 16px;
+  }
+  .search__form .search__input {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .search__form .search__btn {
+    width: 100%;
+  }
+  .tutor__container {
+    margin-top: 90px;
+  }
+  .tutor__box {
+    flex-direction: column;
+  }
+  .tutor__box .tutor_card {
+    max-width: none;
+  }
+  .trainer .trainer__container {
+    background-image: url(../imgs/trainer_mobile.avif);
+  }
+  .news .news__container {
+    flex-wrap: wrap;
+  }
+  .news .news__container .news__card {
+    width: 48%;
+  }
+  .footer_navigation .footer__col {
+    display: none;
+  }
+  .footer_navigation .footer__col:last-child {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_navigation .footer__col:last-child .footer__title:first-child {
+    display: none;
+  }
+  .footer_navigation .footer__col:last-child .footer__brands {
+    display: none;
+  }
+  .footer_navigation .footer__subscribe {
+    max-width: 448px;
+    width: 100%;
+  }
+  .copy__nav {
+    width: 100%;
+    margin: 0;
+    left: 0;
+    position: absolute;
+    bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2f3337;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.2s;
+  }
+  .copy__nav.active {
+    transform: scaleY(1);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.2s;
+  }
+  .copy__nav .copy__nav-item {
+    margin-left: 0px;
+    width: 100%;
+    padding: 14px 28px;
+    border-bottom: 1px solid rgba(202, 203, 207, 0.1);
+  }
+  .copy__c-country {
+    display: none;
+  }
+  .copy__c-arrow {
+    transform: scaleX(1.7) rotate(90deg);
+  }
+  .copy__c-arrow.active {
+    transform: scaleX(1.7) rotate(-90deg);
+  }
+}
+@media (max-width: 550px) {
+  .search {
+    padding: 20px 15px 22px;
+  }
+  .search__form #search__pin {
+    margin-left: 0px;
+  }
+  .trainer__info {
+    margin-left: 0px;
+  }
+  .news .news__container {
+    flex-wrap: wrap;
+  }
+  .news .news__container .news__card {
+    width: 100%;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
